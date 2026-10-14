@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogesh Kumar</title>
+    <title>Yogesh Kumar | Backend &amp; AI Integration Engineer</title>
+    <meta name="description" content="Yogesh Kumar – Backend and AI integration engineer with 5 years of experience in Python, FastAPI, Django, LLMs, RAG pipelines and AWS.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,22 +24,24 @@
             <div class="hidden md:flex space-x-4 items-center">
                 <a href="#home" class="text-gray-600 hover:text-accent transition-colors">Home</a>
                 <a href="#about" class="text-gray-600 hover:text-accent transition-colors">About</a>
+                <!-- Uncomment once you add the Projects section below -->
+                <!-- <a href="#projects" class="text-gray-600 hover:text-accent transition-colors">Projects</a> -->
                 <a href="#certificates" class="text-gray-600 hover:text-accent transition-colors">Certifications</a>
                 <button id="open-contact-modal" class="btn btn-secondary !py-1 !px-3">Contact</button>
                 <div class="flex space-x-4">
-                    <a href="https://github.com/yogeshahalwat" target="_blank" class="text-gray-600 hover:text-accent social-icon">
+                    <a href="https://github.com/yogeshahalwat" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-accent social-icon">
                         <img src="Assets/logos/github.jpg" alt="GitHub" class="w-6 h-6">
                     </a>
-                    <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" class="text-gray-600 hover:text-accent social-icon">
+                    <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-accent social-icon">
                        <img src="Assets/logos/linkedin.jpg" alt="LinkedIn" class="w-6 h-6">
                     </a>
-                    <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" class="text-gray-600 hover:text-accent social-icon" title="Blogger">
+                    <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-accent social-icon" title="Blogger">
                         <i class="fab fa-blogger text-2xl"></i>
                     </a>
                 </div>
             </div>
 
-            <button id="mobile-menu-button" class="md:hidden text-gray-800">
+            <button id="mobile-menu-button" class="md:hidden text-gray-800" aria-label="Open menu">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </nav>
@@ -46,16 +49,17 @@
         <div id="mobile-menu" class="hidden md:hidden bg-surface">
             <a href="#home" class="block py-2 px-6 text-gray-600 hover:bg-gray-200">Home</a>
             <a href="#about" class="block py-2 px-6 text-gray-600 hover:bg-gray-200">About</a>
-             <a href="#certificates" class="block py-2 px-6 text-gray-600 hover:bg-gray-200">Certifications</a>
+            <!-- <a href="#projects" class="block py-2 px-6 text-gray-600 hover:bg-gray-200">Projects</a> -->
+            <a href="#certificates" class="block py-2 px-6 text-gray-600 hover:bg-gray-200">Certifications</a>
             <button id="open-contact-modal-mobile" class="block w-full text-left py-2 px-6 text-gray-600 hover:bg-gray-200">Contact</button>
             <div class="flex justify-center space-x-6 py-4">
-                <a href="https://github.com/yogeshahalwat" target="_blank" class="text-gray-600 hover:text-accent social-icon">
+                <a href="https://github.com/yogeshahalwat" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-accent social-icon">
                     <img src="Assets/logos/github.jpg" alt="GitHub" class="w-6 h-6">
                 </a>
-                <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" class="social-icon">
+                <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" rel="noopener noreferrer" class="social-icon">
                    <img src="Assets/logos/linkedin.jpg" alt="LinkedIn" class="w-6 h-6">
                 </a>
-                <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" class="text-gray-600 hover:text-accent social-icon" title="Blogger">
+                <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-accent social-icon" title="Blogger">
                     <i class="fab fa-blogger text-2xl"></i>
                 </a>
             </div>
@@ -63,67 +67,75 @@
     </header>
 
     <main>
-          <!-- Hero Section -->
-       <section id="home" class="relative min-h-screen flex items-center justify-center bg-white overflow-hidden py-20 px-4">
-    <div class="container mx-auto flex flex-col md:flex-row gap-12 items-center">
+        <!-- Hero Section -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center bg-white overflow-hidden py-20 px-4">
+            <div class="container mx-auto flex flex-col md:flex-row gap-12 items-center">
 
-        <div class="flex-shrink-0 flex justify-center md:justify-start animate-fade-in" style="animation-delay: 0.4s;">
-            <img src="Assets/images/m.jpeg" alt="Animated Portrait" class="w-full max-w-sm object-cover rounded-2xl shadow-xl ring-4 ring-stone-200/70 transition-transform duration-300 ease-in-out transform hover:scale-105">
-        </div>
+                <div class="flex-shrink-0 flex justify-center md:justify-start animate-fade-in" style="animation-delay: 0.4s;">
+                    <img src="Assets/images/m.jpeg" alt="Portrait of Yogesh Kumar" class="w-full max-w-sm object-cover rounded-2xl shadow-xl ring-4 ring-stone-200/70 transition-transform duration-300 ease-in-out transform hover:scale-105">
+                </div>
 
-        <div class="w-full md:w-auto text-center md:text-left animate-fade-in-up md:ml-8 flex flex-col justify-center">
+                <div class="w-full md:w-auto text-center md:text-left animate-fade-in-up md:ml-8 flex flex-col justify-center">
 
-            <div class="flex items-center justify-center md:justify-start mb-2">
-                <span class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-800 leading-tight mr-2" style="font-family: 'Poppins', 'Inter', sans-serif;">
-                    Hi
-                </span>
-                <span role="img" aria-label="waving hand" class="inline-block animate-wave text-4xl sm:text-5xl lg:text-6xl mx-2">👋</span>
-                <span class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-800 leading-tight" style="font-family: 'Poppins', 'Inter', sans-serif;">
-                    I am
-                </span>
+                    <div class="flex items-center justify-center md:justify-start mb-2">
+                        <span class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-800 leading-tight mr-2" style="font-family: 'Poppins', 'Inter', sans-serif;">
+                            Hi
+                        </span>
+                        <span role="img" aria-label="waving hand" class="inline-block animate-wave text-4xl sm:text-5xl lg:text-6xl mx-2">👋</span>
+                        <span class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-800 leading-tight" style="font-family: 'Poppins', 'Inter', sans-serif;">
+                            I am
+                        </span>
+                    </div>
+
+                    <h1 class="text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-800 mb-4 break-words" style="font-family: 'Poppins', 'Inter', sans-serif;">
+                        <span class="animate-gradient-text">
+                           Yogesh Kumar
+                        </span>
+                    </h1>
+
+                    <p class="text-lg md:text-xl text-stone-600 font-medium mt-6 mb-2 animate-fade-in-up" style="animation-delay: 0.3s;">
+                        Backend &amp; AI Integration Engineer
+                    </p>
+                    <p class="text-base md:text-lg text-stone-500 mb-10 animate-fade-in-up" style="animation-delay: 0.35s;">
+                        Python, FastAPI, LLMs, RAG and AWS – 5 years building production backends
+                    </p>
+
+                    <div class="flex justify-center md:justify-start gap-4 animate-fade-in-up" style="animation-delay: 0.5s;">
+                        <a href="#contact" class="px-8 py-3 font-semibold rounded-lg bg-stone-800 text-white transition-all duration-300 ease-in-out hover:bg-stone-700 hover:-translate-y-1 shadow-md">
+                            Hire / Interview me
+                        </a>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <h1 class="text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-800 mb-4 break-words" style="font-family: 'Poppins', 'Inter', sans-serif;">
-                <span class="animate-gradient-text">
-                   Yogesh Kumar
-                </span>
-            </h1>
-
-            <p class="text-lg md:text-xl text-stone-600 font-medium mt-6 mb-10 animate-fade-in-up" style="animation-delay: 0.3s;">
-                Backend Developer |Python Developer
-            </p>
-
-            <div class="flex justify-center md:justify-start gap-4 animate-fade-in-up" style="animation-delay: 0.5s;">
-                <a href="#contact" class="px-8 py-3 font-semibold rounded-lg bg-stone-800 text-white transition-all duration-300 ease-in-out hover:bg-stone-700 hover:-translate-y-1 shadow-md">
-                    Hire / Interview me
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
         <!-- About Section -->
         <section id="about" class="py-20 md:py-32 section-hidden">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h2>
                 <div class="max-w-3xl mx-auto">
                     <div class="bg-surface p-8 rounded-lg shadow-md mb-8">
-                        <p id="about-bio" class="text-gray-700 mb-6 leading-relaxed">I am Yogesh Kumar, a Python Developer with extensive knowledge and experience in developing Python applications, backend services, and frameworks. has experience in cloud native application development using Django, Flask, and  Fast API, which incorporates various AWS services (S3, EC2).  Worked on Python Django and Django REST framework to build an infrastructure monitoring application. Committed to delivering high-quality, scalable solutions for large-scale applications and continuously exploring emerging technologies. ​
-
-​</p>
+                        <p id="about-bio" class="text-gray-700 mb-4 leading-relaxed">
+                            I'm Yogesh Kumar, a backend engineer with 5 years of experience building Python services, now focused on integrating large language models into real products. I work across FastAPI, Django and Flask, and I build the pieces that make AI features reliable in production: RAG pipelines, LLM integrations, MCP servers, strict data validation with Pydantic, and AWS infrastructure.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            I've shipped APIs, data ingestion workflows, event logging systems and an infrastructure monitoring application, and I care about clean, scalable code that's easy for the next developer to work with. I'm an AWS Certified Cloud Practitioner and hold an Anthropic certification in building with AI.
+                        </p>
                     </div>
 
                     <div class="bg-surface p-8 rounded-lg shadow-md mb-8">
                         <h4 class="text-xl font-bold text-accent mb-4">Core Areas</h4>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><span class="font-bold">📘 DSA with Python</span> – Practicing consistently to build strong problem-solving skills</li>
-                            <li><span class="font-bold">⚙ Backend Development</span> – Python, Django, Flask, FastAPI</li>
-                            <li><span class="font-bold">🌍 Database</span> – Postgres, Mongodb</li>
-                            <li><span class="font-bold">🛠 AWS Services</span> – S3, EC2, lambda, cloudwatch, RDS )</li>
+                            <li><span class="font-bold">🤖 AI &amp; LLM Integration</span> – RAG pipelines, LLM APIs, MCP (Model Context Protocol), AI agents</li>
+                            <li><span class="font-bold">⚙ Backend Development</span> – Python, FastAPI, Django, Flask, Pydantic</li>
+                            <li><span class="font-bold">🛠 AWS</span> – Lambda, Batch, S3, EC2, RDS, CloudFormation, CloudWatch</li>
+                            <li><span class="font-bold">🌍 Databases</span> – PostgreSQL, MongoDB, Redis, Elasticsearch</li>
+                            <li><span class="font-bold">📘 DSA with Python</span> – Practicing consistently to sharpen problem-solving</li>
                         </ul>
                     </div>
 
                     <div class="bg-surface p-8 rounded-lg shadow-md mb-8">
-                        <h4 class="text-xl font-bold text-accent mb-4">Core CS Subjects I'have  Experties</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4">Core CS Fundamentals</h4>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
                             <li><span class="font-bold">🧩 Object-Oriented Programming in Python</span></li>
                             <li><span class="font-bold">🗄 Database Management Systems</span></li>
@@ -137,87 +149,153 @@
                     <ul class="border-l-2 border-accent/30 space-y-4">
                         <li class="ml-4 pl-4 relative">
                             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-accent rounded-full border-4 border-white"></div>
-                            <p class="font-bold"> Deloitte USI</p>
+                            <p class="font-bold">Deloitte USI</p>
                             <p class="text-gray-600">April 2025 – Present</p>
-                            <p class="text-gray-600">• Built APIs to interface with external clustering services, enabling data enrichment workflows. Processed the received data with large language models (LLMs) and persisted results to the database.</p>
-                            <p class="text-gray-600">• Designed robust database schemas and created Pydantic models to ensure strict data validation and integrity throughout the application.</p>
-                            <p class="text-gray-600">• Integrated AWS services, notably S3, to automate the retrieval and storage of CSV files, supporting scalable data ingestion workflows.</p>
+                            <p class="text-gray-600">• Built APIs that connect to external clustering services for data enrichment, processed the results with large language models (LLMs), and stored the output in the database.</p>
+                            <p class="text-gray-600">• Designed database schemas and Pydantic models to enforce strict data validation and integrity across the application.</p>
+                            <p class="text-gray-600">• Integrated AWS services, notably S3, to automate retrieval and storage of CSV files for scalable data ingestion.</p>
                         </li>
                         <li class="ml-4 pl-4 relative">
                             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-accent rounded-full border-4 border-white"></div>
-                            <p class="font-bold"> Antino Labs</p>
+                            <p class="font-bold">Antino Labs</p>
                             <p class="text-gray-600">June 2024 – April 2025</p>
-                            <p class="text-gray-600">• Developed RESTful APIs using Django REST Framework to enable seamless communication between front-end and back-end systems</p>
-                            <p class="text-gray-600">• Work on the Django-Admin Panel to register a new model as per the requirements and customize the Admin Panel</p>
-                            <p class="text-gray-600">• Used AWS services like S3 to storing the images and EC2 to Deploy the application.</p>
-                            <p class="text-gray-600">• Conducted API testing with Postman.</p>
+                            <p class="text-gray-600">• Developed RESTful APIs with Django REST Framework to connect front-end and back-end systems.</p>
+                            <p class="text-gray-600">• Registered new models and customized the Django Admin panel to match project requirements.</p>
+                            <p class="text-gray-600">• Used AWS S3 for image storage and EC2 for application deployment.</p>
+                            <p class="text-gray-600">• Tested APIs with Postman.</p>
                         </li>
                         <li class="ml-4 pl-4 relative">
                             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-accent rounded-full border-4 border-white"></div>
-                            <p class="font-bold"> Edge </p>
+                            <p class="font-bold">Edge</p>
                             <p class="text-gray-600">Nov 2023 – June 2024</p>
-                            <p class="text-gray-600">• Managed code deployment to QA, UAT, and PROD environments on servers using Docker and Jenkins.</p>
-                            <p class="text-gray-600">• Implemented a comprehensive event logging and transaction reporting system using RabbitMQ, Postgres for real-time user activity tracking and data analysis, aiding the Project Manager in decision-making.</p>
-                            <p class="text-gray-600">• Write ElasticSearch queries to retrieve, modify, and manipulate data, optimizing search performance and enhancing data analysis capabilities.</p>
-                            <p class="text-gray-600">• Utilized GitLab as a version control system for submitting merge requests (MRs), facilitating collaborative code review and integration processes.</p>
+                            <p class="text-gray-600">• Managed deployments to QA, UAT and PROD environments using Docker and Jenkins.</p>
+                            <p class="text-gray-600">• Built an event logging and transaction reporting system with RabbitMQ and PostgreSQL for real-time user activity tracking, helping the project manager make data-driven decisions.</p>
+                            <p class="text-gray-600">• Wrote Elasticsearch queries to retrieve and transform data, improving search performance and analysis.</p>
+                            <p class="text-gray-600">• Used GitLab merge requests for collaborative code review and integration.</p>
                         </li>
                         <li class="ml-4 pl-4 relative">
                             <div class="absolute -left-[9px] top-1 w-4 h-4 bg-accent rounded-full border-4 border-white"></div>
-                            <p class="font-bold"> Globallogic </p>
+                            <p class="font-bold">GlobalLogic</p>
                             <p class="text-gray-600">Jan 2022 – Nov 2023</p>
-                            <p class="text-gray-600">• Designed and implemented views, models, and APIs using the Django framework for an analytics dashboard web application.</p>
-                            <p class="text-gray-600">• Developed RESTful APIs using Django REST Framework to enable seamless communication between front-end and back-end systems.</p>
+                            <p class="text-gray-600">• Designed and implemented views, models and APIs in Django for an analytics dashboard web application.</p>
+                            <p class="text-gray-600">• Developed RESTful APIs with Django REST Framework to connect front-end and back-end systems.</p>
                         </li>
                     </ul>
 
                     <h4 class="text-xl font-bold mt-8 mb-4">Skills</h4>
                     <div id="about-skills" class="flex flex-wrap gap-2 mb-8">
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Back-End Development</span>
                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Python</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Django</span>
-                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Flask</span>
                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">FastAPI</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Postgres</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Mongodb</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Celery</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Django</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Flask</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">LLM Integration</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">RAG Pipelines</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">MCP</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">AI Agents</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Pydantic</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">AWS (Lambda, Batch, S3, EC2, RDS, CloudFormation, CloudWatch)</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">PostgreSQL</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">MongoDB</span>
                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Redis</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Elasticsearch</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Celery</span>
                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">RabbitMQ</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Jira</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Linux</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Jenkins</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">AWS (S3, EC2, RDS, Cloudwatch, lambda)</span>
-                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">DSA</span>
                         <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Docker</span>
-
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Jenkins</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Linux</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Git / GitLab</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">Jira</span>
+                        <span class="bg-surface text-accent px-3 py-1 rounded-full text-sm border border-gray-300">DSA</span>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!--
+        ===================== PROJECTS SECTION (template) =====================
+        Fill in your real projects, then remove the comment markers around this
+        section and uncomment the "Projects" links in the header and mobile menu.
+        Copy the project card block for each project (2–3 is ideal).
+
+        <section id="projects" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Projects</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+
+                    <div class="bg-surface p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2">Project name</h3>
+                        <p class="text-gray-700 mb-4 leading-relaxed">One or two sentences: what problem it solves and what you built.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-white text-accent px-3 py-1 rounded-full text-sm border border-gray-300">FastAPI</span>
+                            <span class="bg-white text-accent px-3 py-1 rounded-full text-sm border border-gray-300">RAG</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/yogeshahalwat/REPO-NAME" target="_blank" rel="noopener noreferrer" class="font-semibold text-stone-800 hover:underline"><i class="fab fa-github"></i> View code</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="font-semibold text-stone-800 hover:underline"><i class="fas fa-external-link-alt"></i> Live demo</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        ======================================================================
+        -->
+
         <!-- My certificates -->
         <section id="certificates" class="certificates-section">
             <div class="container">
-                <h2 class="section-title">Certifications & Achievements</h2>
+                <h2 class="section-title">Certifications &amp; Achievements</h2>
                 <div class="certificates-grid">
 
+                    <!-- AWS Certified Cloud Practitioner -->
                     <div class="cert-card">
                         <div class="cert-image-wrapper">
-                            <img src="Assets/images/1.jpg" alt="Certificate Preview">
+                            <!-- To use your certificate image instead, replace this div with:
+                                 <img src="Assets/images/aws-ccp.jpg" alt="AWS Certified Cloud Practitioner certificate"> -->
+                            <div class="w-full h-full min-h-[180px] flex flex-col items-center justify-center gap-2" style="background: linear-gradient(135deg, #232f3e, #3b4a5e);">
+                                <i class="fas fa-cloud text-5xl" style="color: #ff9900;"></i>
+                                <span class="text-white font-semibold text-sm">Cloud Practitioner</span>
+                            </div>
                             <div class="cert-overlay">
-                                <a href="https://www.hackerrank.com/certificates/887bca6995a7" class="view-cert-link" target="_blank" rel="noopener noreferrer">
+                                <!-- Replace # with your Credly badge / verification link -->
+                                <a href="#" class="view-cert-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-eye"></i> View Certificate
                                 </a>
                             </div>
                         </div>
                         <div class="cert-content">
-                            <h3 class="cert-title">SQL</h3>
-                            <p class="cert-issuer">Issued by: HackerRank</p>
-                            <p class="cert-date">Issued: Dec 24, 2022</p>
+                            <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+                            <p class="cert-issuer">Issued by: Amazon Web Services</p>
+                            <p class="cert-date">Issued: Sept 2026</p>
+                        </div>
+                    </div>
+
+                    <!-- Anthropic certification -->
+                    <div class="cert-card">
+                        <div class="cert-image-wrapper">
+                            <!-- To use your certificate image instead, replace this div with:
+                                 <img src="Assets/images/anthropic-cert.jpg" alt="Anthropic certificate"> -->
+                            <div class="w-full h-full min-h-[180px] flex flex-col items-center justify-center gap-2" style="background: linear-gradient(135deg, #3d3a35, #5c574f);">
+                                <i class="fas fa-brain text-5xl" style="color: #f0e6d8;"></i>
+                                <span class="text-white font-semibold text-sm">AI Associate</span>
+                            </div>
+                            <div class="cert-overlay">
+                                <!-- Replace # with your verification link -->
+                                <a href="#" class="view-cert-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Anthropic AI Associate</h3>
+                            <p class="cert-issuer">Issued by: Anthropic</p>
+                            <p class="cert-date">Issued: 2026</p>
                         </div>
                     </div>
 
                     <div class="cert-card">
                         <div class="cert-image-wrapper">
-                            <img src="Assets/images/2.jpg" alt="Certificate Preview">
+                            <img src="Assets/images/2.jpg" alt="HackerRank Python certificate">
                             <div class="cert-overlay">
                                 <a href="https://www.hackerrank.com/certificates/c06cc598386b" class="view-cert-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-eye"></i> View Certificate
@@ -233,7 +311,25 @@
 
                     <div class="cert-card">
                         <div class="cert-image-wrapper">
-                            <img src="Assets/images/3.jpg" alt="Certificate Preview">
+                            <img src="Assets/images/1.jpg" alt="HackerRank SQL certificate">
+                            <div class="cert-overlay">
+                                <a href="https://www.hackerrank.com/certificates/887bca6995a7" class="view-cert-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-eye"></i> View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">SQL</h3>
+                            <p class="cert-issuer">Issued by: HackerRank</p>
+                            <p class="cert-date">Issued: Dec 24, 2022</p>
+                        </div>
+                    </div>
+
+                    <!-- Udemy course: the "View Certificate" link was empty (#).
+                         Paste your Udemy certificate URL (ude.my/UC-...) into href. -->
+                    <div class="cert-card">
+                        <div class="cert-image-wrapper">
+                            <img src="Assets/images/3.jpg" alt="Udemy Python Bootcamp certificate">
                             <div class="cert-overlay">
                                 <a href="#" class="view-cert-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-eye"></i> View Certificate
@@ -250,12 +346,13 @@
                 </div>
             </div>
         </section>
+
         <!-- Contact Section -->
         <section id="contact" class="py-20 md:py-32 bg-surface section-hidden">
             <div class="container mx-auto px-6">
                 <div class="text-center">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
-                    <p class="text-gray-600 mb-12 max-w-2xl mx-auto">Have a project in mind or just want to say hi? Feel free to reach out.</p>
+                    <p class="text-gray-600 mb-12 max-w-2xl mx-auto">Need a backend or an AI feature built? Tell me about your project and I'll get back to you within a day.</p>
                 </div>
                 <div class="max-w-2xl mx-auto">
                     <div class="grid md:grid-cols-2 gap-6">
@@ -277,7 +374,7 @@
                             </div>
                         </div>
 
-                        <!-- Phone Card -->
+                        <!-- Phone Card (delete this whole div if you don't want your number public) -->
                         <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-2 border-gray-100">
                             <div class="flex items-center justify-center mb-4">
                                 <div class="bg-green-100 p-4 rounded-full">
@@ -295,13 +392,13 @@
                     <div class="mt-12 text-center">
                         <h3 class="text-xl font-bold mb-6 text-gray-800">Find Me On</h3>
                         <div class="flex justify-center space-x-6">
-                            <a href="https://github.com/yogeshahalwat" target="_blank" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                            <a href="https://github.com/yogeshahalwat" target="_blank" rel="noopener noreferrer" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                 <img src="Assets/logos/github.jpg" alt="GitHub" class="w-8 h-8">
                             </a>
-                            <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                            <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" rel="noopener noreferrer" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                 <img src="Assets/logos/linkedin.jpg" alt="LinkedIn" class="w-8 h-8">
                             </a>
-                            <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1" title="Blogger">
+                            <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" rel="noopener noreferrer" class="bg-white p-4 rounded-full shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1" title="Blogger">
                                 <i class="fab fa-blogger text-orange-600 text-3xl"></i>
                             </a>
                         </div>
@@ -310,21 +407,26 @@
             </div>
         </section>
     </main>
+
     <!-- Footer -->
     <footer class="py-8">
         <div class="container mx-auto px-6 text-center text-gray-500">
             <div class="flex justify-center space-x-6 mb-4 text-gray-600">
-                <a href="https://github.com/yogeshahalwat" target="_blank" class="social-icon hover:text-gray-800">GitHub</a>
-                <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" class="social-icon hover:text-gray-800">LinkedIn</a>
-                <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" class="social-icon hover:text-orange-600">Blogger</a>
+                <a href="https://github.com/yogeshahalwat" target="_blank" rel="noopener noreferrer" class="social-icon hover:text-gray-800">GitHub</a>
+                <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" rel="noopener noreferrer" class="social-icon hover:text-gray-800">LinkedIn</a>
+                <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" rel="noopener noreferrer" class="social-icon hover:text-orange-600">Blogger</a>
             </div>
-            <p>&copy; 2025 Yogesh Kumar. All Rights Reserved.</p>
+            <p>&copy; <span id="footer-year">2026</span> Yogesh Kumar. All Rights Reserved.</p>
+            <script>
+                try { document.getElementById('footer-year').textContent = new Date().getFullYear(); } catch (e) {}
+            </script>
         </div>
     </footer>
+
     <!-- Contact Modal -->
     <div id="contact-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-[100] transition-opacity duration-300 opacity-0 pointer-events-none">
         <div class="bg-surface p-8 rounded-lg shadow-2xl relative max-w-xl w-full mx-4 transform scale-95 transition-transform duration-300">
-            <button id="close-contact-modal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition-colors">
+            <button id="close-contact-modal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition-colors" aria-label="Close">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
             </button>
             <div class="text-center">
@@ -347,7 +449,7 @@
                         </div>
                     </div>
 
-                    <!-- Phone -->
+                    <!-- Phone (delete this div too if you remove the phone card above) -->
                     <div class="flex items-center space-x-4 bg-gray-50 p-4 rounded-lg">
                         <div class="bg-green-100 p-3 rounded-full">
                             <i class="fas fa-phone-alt text-green-600 text-xl"></i>
@@ -364,15 +466,15 @@
                     <div class="pt-4">
                         <p class="text-sm text-gray-500 mb-3">Connect on Social Media</p>
                         <div class="flex flex-wrap gap-3">
-                            <a href="https://github.com/yogeshahalwat" target="_blank" class="flex items-center space-x-2 bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+                            <a href="https://github.com/yogeshahalwat" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
                                 <img src="Assets/logos/github.jpg" alt="GitHub" class="w-5 h-5">
                                 <span>GitHub</span>
                             </a>
-                            <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" class="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                            <a href="https://www.linkedin.com/in/yogeshkumar0/" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                                 <img src="Assets/logos/linkedin.jpg" alt="LinkedIn" class="w-5 h-5">
                                 <span>LinkedIn</span>
                             </a>
-                            <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" class="flex items-center space-x-2 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors">
+                            <a href="https://www.blogger.com/profile/17903910830324355341" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors">
                                 <i class="fab fa-blogger text-lg"></i>
                                 <span>Blogger</span>
                             </a>
@@ -383,9 +485,8 @@
         </div>
     </div>
 
-    <button id="scroll-to-top" class="fixed bottom-6 right-6 bg-accent text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 z-40">
+    <button id="scroll-to-top" class="fixed bottom-6 right-6 bg-accent text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 z-40" aria-label="Scroll to top">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" /></svg>
     </button>
 </body>
 </html>
-
